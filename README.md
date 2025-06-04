@@ -1,6 +1,21 @@
 # Car Dashboard Menu - Assembly Project
 This project is a simple car dashboard menu system implemented in C and Assembly. It simulates a car interface that allows the user to view and modify various settings depending on the access mode: **User** or **Supervisor**.
 
+## Table of Contents
+- [🚗 Features](#-features)
+  - [User Mode](#user-mode)
+  - [Supervisor Mode](#supervisor-mode)
+- [🔧 How It Works](#-how-it-works)
+  - [Main Program (`main.c`)](#main-program-mainc)
+  - [Input Handling (`arrowKey()`)](#input-handling-arrowkey)
+  - [Assembly Functions](#assembly-functions)
+    - [`on_off.s`](#on_offs)
+    - [`frecce_direzione.s`](#frecce_direziones)
+- [💡 Menu Navigation](#-menu-navigation)
+- [Notes](#notes)
+- [🧪 Build & Run](#-build--run)
+- [Screenshots](#screenshots)
+
 ## 🚗 Features
 - **User Mode** (run executable normally):
   - View:
@@ -79,7 +94,7 @@ To compile the project, use the following commands:
 make </pre>  
 
 If you encounter missing 32-bit libraries, install them with:
-<pre> sudo apt update
+<pre>sudo apt update
 sudo apt install gcc-multilib g++-multilib </pre> 
 
 
